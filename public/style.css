@@ -1,0 +1,164 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+    margin-top: 95px;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    color: coral;
+}
+
+.bg-container {
+    background-color: aqua;
+    height: 700px;
+}
+
+.bg-input {
+    color: salmon;
+}
+
+.login-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a73e8, #34a853);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: bgAnimation 10s infinite alternate;
+}
+
+.top-header {
+    width: 70%;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-card {
+    background: white;
+    width: 330px;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    animation: slideFade 1s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------- LOGIN & REGISTER ---------- */
+
+.login-bg {
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: white;
+    width: 360px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.main-heading {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 9S0px;
+    margin: 15Spx 0;
+}
+
+.login-card h2 {
+    margin-bottom: 15px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link-text a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+
+/* ---------- HOME PAGE ---------- */
+
+.home-bg {
+    min-height: 100vh;
+    background: #f2f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.home-container h1 {
+    color: #4facfe;
+    margin-bottom: 10px;
+}
+
+.course-list {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.course-card {
+    background: #4facfe;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
